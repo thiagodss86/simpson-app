@@ -22,6 +22,7 @@ import {
   Popconfirm
 } from 'antd';
 import { LoadingOutlined } from '@ant-design/icons';
+import 'antd/dist/antd.css';
 
 const getIndicatorIcon = () => <LoadingOutlined style={{ fontSize: 24 }} spin />;
 
